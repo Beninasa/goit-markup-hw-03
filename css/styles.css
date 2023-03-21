@@ -8,6 +8,25 @@
   --cloud: #f4f4fd;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: var(--slate);
@@ -29,10 +48,28 @@ body {
 .list {
   list-style: none;
 }
+
+.container {
+  width: 1470px;
+  padding-left: 156px;
+  padding-right: 156px;
+  margin: 0 auto;
+}
+
+.section {
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+
 /* Header */
 
-/* .header {
-} */
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: var(--cornflower);
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
 
 /* .header-nav {
 } */
@@ -86,6 +123,8 @@ body {
 
 .hero {
   background-color: var(--navy-blue);
+  padding-top: 188px;
+  padding-bottom: 292px;
 }
 .hero-title {
   font-weight: 700;
@@ -102,6 +141,7 @@ body {
   background-color: var(--iris);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  margin-top: 48px;
 
   font-weight: 500;
   font-size: 16px;
@@ -113,7 +153,6 @@ body {
 .hero-button:focus,
 .hero-button:hover {
   background-color: var(--ocean);
-  color: var(--ocean);
 }
 
 /* Technology list */
@@ -220,6 +259,8 @@ body {
 
 .footer {
   background: var(--navy-blue);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .logo-footer {
@@ -246,12 +287,14 @@ body {
 
 /* Portfolio page */
 
-/* .buttons {
-} */
+.portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 
-/* .buttons-list {
- 
-} */
+.buttons-list {
+  margin-bottom: 72px;
+}
 
 .buttons-list-name:hover,
 .buttons-list-name:focus {
