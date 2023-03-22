@@ -61,7 +61,7 @@ body {
   padding-top: 120px;
 }
 
-/* Header */
+/*-------------------------- Header --------------------------*/
 
 .header {
   padding-top: 24px;
@@ -107,6 +107,7 @@ body {
 }
 
 /* .header-contact-list {
+  display: flex;
 } */
 
 /* .header-contact-item {
@@ -119,7 +120,7 @@ body {
   color: var(--slate);
 }
 
-/* Hero image */
+/*-------------------------- Hero image --------------------------*/
 
 .hero {
   background-color: var(--navy-blue);
@@ -155,7 +156,7 @@ body {
   background-color: var(--ocean);
 }
 
-/* Technology list */
+/*-------------------------- Technology list --------------------------*/
 
 /* .technology {
 } */
@@ -183,7 +184,7 @@ body {
   color: var(--slate);
 }
 
-/* Product list */
+/*-------------------------- Product list --------------------------*/
 
 /* .product {
 } */
@@ -207,7 +208,7 @@ body {
 /* .product-images {
 } */
 
-/* Team */
+/*-------------------------- Team --------------------------*/
 
 .team {
   background: var(--cloud);
@@ -255,7 +256,7 @@ body {
   color: var(--slate);
 }
 
-/* Footer */
+/*-------------------------- Footer --------------------------*/
 
 .footer {
   background: var(--navy-blue);
@@ -279,13 +280,15 @@ body {
 }
 
 .footer-content {
+  width: 264px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--cloud);
+  margin-top: 16px;
 }
 
-/* Portfolio page */
+/*-------------------------- Portfolio page --------------------------*/
 
 .portfolio {
   padding-top: 96px;
@@ -316,7 +319,7 @@ body {
   border-radius: 4px;
 }
 
-/* Works list */
+/*-------------------------- Works list --------------------------*/
 
 /* .works-list {
 } */
