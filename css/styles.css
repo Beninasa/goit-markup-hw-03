@@ -80,9 +80,7 @@ body {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
-  border-bottom: var(--cornflower);
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
+  border-bottom: 2px solid var(--cornflower);
 }
 
 .header-container {
