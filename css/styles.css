@@ -332,12 +332,18 @@ body {
 
 .buttons-list {
   margin-bottom: 72px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 
 .buttons-list-name:hover,
 .buttons-list-name:focus {
   color: var(--white);
   background: var(--ocean);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border: 1px solid var(--ocean);
 }
 
 .buttons-list-name {
@@ -349,18 +355,32 @@ body {
   letter-spacing: 0.04em;
   color: var(--iris);
   background: var(--cloud);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  padding: 12px 24px;
+  border: 1px solid var(--cornflower);
 }
 
 /*-------------------------- Works list --------------------------*/
 
-/* .works-list {
-} */
+.works-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+}
 
-/* .works-items {
-} */
+.works-list li {
+  width: calc((100% - 48px) / 3);
+}
+
+.works-items {
+  max-width: 360px;
+}
+
+.works-content-text {
+  border: 1px solid var(--cornflower);
+  border-top: none;
+  padding: 32px 0 32px 16px;
+}
 
 /* .works-images {
 } */
@@ -371,6 +391,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  margin-bottom: 8px;
 }
 .works-image-content {
   font-size: 16px;
