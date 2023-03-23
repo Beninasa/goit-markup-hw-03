@@ -210,8 +210,9 @@ body {
 
 /*-------------------------- Product list --------------------------*/
 
-/* .product {
-} */
+.product {
+  padding-top: 0;
+}
 
 .product-title {
   font-weight: 700;
